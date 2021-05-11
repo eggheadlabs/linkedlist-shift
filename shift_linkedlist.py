@@ -3,7 +3,7 @@
 # Example:  original llist:     0 -> 1 -> 2 -> 3 -> 4 -> 5
 #           shifted by k=2:     4 -> 5 -> 0 -> 1 -> 2 -> 3
 #           shifted by k=-2:    2 -> 3 -> 4 -> 5 -> 0 -> 1
-#           shifted by k=8:     4 -> 5 -> 0 -> 1 -> 2 -> 3  (same as k=2 case, the net effective offset is 2)
+#           shifted by k=8:     4 -> 5 -> 0 -> 1 -> 2 -> 3  (same as k=2 case, the net effective shift is 2)
 
 
 class Node:
