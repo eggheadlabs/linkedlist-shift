@@ -5,7 +5,6 @@
 #           shifted by k=-2:    2 -> 3 -> 4 -> 5 -> 0 -> 1
 #           shifted by k=8:     4 -> 5 -> 0 -> 1 -> 2 -> 3  (same as k=2 case, the net effective shift is 2)
 
-
 class Node:
     def __init__(self, data):
         self.data = data
@@ -49,7 +48,6 @@ class SinglyLinkedList:
             tail.next = self.head
             self.head = new_tail.next
             new_tail.next = None
-
 
 # Preparation: create the SinglyLinkedList according to a given input
 s = [0, 1, 2, 3, 4, 5]
